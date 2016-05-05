@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4" : {
-            "chobie\\" : "src"
+            "tgskiv\\" : "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\chobie\\": "tests"
+            "Tests\\tgskiv\\": "tests"
         }
     },
     "extra": {
