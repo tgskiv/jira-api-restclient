@@ -169,11 +169,12 @@ class Api
     }
 
     /**
+	 * @param array $expand
      * @return Result|false
      */
-    public function getProjects()
+    public function getProjects($expand = array())
     {
-        return $this->api(self::REQUEST_GET, '/rest/api/2/project');
+        return $this->api(self::REQUEST_GET, '/rest/api/2/project', $expand);
     }
 
     /**
