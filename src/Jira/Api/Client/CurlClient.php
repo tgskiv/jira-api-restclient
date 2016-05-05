@@ -22,13 +22,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace chobie\Jira\Api\Client;
+namespace tgskiv\Jira\Api\Client;
 
-use chobie\Jira\Api\Authentication\AuthenticationInterface;
-use chobie\Jira\Api\Authentication\Basic;
-use chobie\Jira\Api\Authentication\Anonymous;
-use chobie\Jira\Api\Exception;
-use chobie\Jira\Api\UnauthorizedException;
+use tgskiv\Jira\Api\Authentication\AuthenticationInterface;
+use tgskiv\Jira\Api\Authentication\Basic;
+use tgskiv\Jira\Api\Authentication\Anonymous;
+use tgskiv\Jira\Api\Exception;
+use tgskiv\Jira\Api\UnauthorizedException;
 
 class CurlClient implements ClientInterface
 {

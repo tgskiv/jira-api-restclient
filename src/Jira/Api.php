@@ -22,12 +22,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace chobie\Jira;
+namespace tgskiv\Jira;
 
-use chobie\Jira\Api\Authentication\AuthenticationInterface;
-use chobie\Jira\Api\Client\ClientInterface;
-use chobie\Jira\Api\Client\CurlClient;
-use chobie\Jira\Api\Result;
+use tgskiv\Jira\Api\Authentication\AuthenticationInterface;
+use tgskiv\Jira\Api\Client\ClientInterface;
+use tgskiv\Jira\Api\Client\CurlClient;
+use tgskiv\Jira\Api\Result;
 
 class Api
 {

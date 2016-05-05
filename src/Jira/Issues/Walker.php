@@ -22,9 +22,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace chobie\Jira\Issues;
+namespace tgskiv\Jira\Issues;
 
-use chobie\Jira\Api;
+use tgskiv\Jira\Api;
 
 class Walker implements \Iterator
 {

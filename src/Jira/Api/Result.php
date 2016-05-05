@@ -22,9 +22,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace chobie\Jira\Api;
+namespace tgskiv\Jira\Api;
 
-use chobie\Jira\Issue;
+use tgskiv\Jira\Issue;
 
 class Result
 {

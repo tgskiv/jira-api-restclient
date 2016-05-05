@@ -22,9 +22,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace chobie\Jira\Api\Client;
+namespace tgskiv\Jira\Api\Client;
 
-use chobie\Jira\Api\Authentication\AuthenticationInterface;
+use tgskiv\Jira\Api\Authentication\AuthenticationInterface;
 
 interface ClientInterface
 {
